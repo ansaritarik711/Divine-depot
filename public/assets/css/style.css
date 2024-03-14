@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    width: 100%;
+    height:90px;
+    background-color: #FFFCF7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first{
+    width: 190px;
+    height:  46px;
+    gap: 10px;
+}
+
+header ul{
+    width: 528px;
+    height:  32px;
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+header li{
+    font-family: Jost;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+header button{
+    width: 165px;
+    height: 48px;
+    padding: 10px, 17px, 10px, 17px;
+    border-radius: 10px;
+    border: 1px;
+    gap: 10px;
+    border: 1px solid #000000;
+    font-family: Jost;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+.menu1{
+    width: 153.34px;
+    height: 21.17px;
+    gap: 35px;
+}
+
+.ne{
+    width: 1.17px;
+    height: 31.17px;
+    padding: 3.9px, 3.9px, 3.9px, 3.9px;
+}
+
+footer{
+    background-image: url('../images/Rectangle\ 14.png');
+    height: 328px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#footer-line{
+    gap: 10px;
+    width: 190px;
+    height: 46px
+
+}
+
+.divine-depot-logo2{
+    padding-top: 50px;
+}
+
+.hex1{
+    
+    height: 49px;
+    width: 100%;
+    align-items: center;
+    gap: 9px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+
+}
+
+.hex1 li{
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+
+.hex1 img{
+    width: 1px;
+    height: 33px;
+}
+
+.hex2{
+    width: 190.1px;
+    height: 25px;
+    margin-top: 19px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.hex2 img{
+    width: 20px;
+    height: 20px;
+}
+
+.hex3{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+.hex3 div{
+    display: flex;
+}
+
+.hex3 p{
+    color: #FAFAFA;
+    font-family: Jost;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hex3 div img{
+    width: 20px;
+    height: 20px;
+    padding: 4px, 2px, 4px, 2px;
+}
+
+.hero-section{
+    background-image: url('../images/Rectangle132.png');
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section p{
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: white;
+    padding: 231px 75px 0px 0px;
+
+}
+
+
+.hero-section2{
+    background-color: #EFECCA;
+    height: 1000px;
+    width: 100%;
+}
+
+.hero-section3 p,.history-section3{
+    font-family: Jost;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    padding-right: 0;
+
+}
+
+.hero-section2 img{
+    width: 575px;
+    height: 86px;
+
+}
+
+.hero-section3 p,.hero-section3 div,.hero-section2,.grid-item p ,.divine-depot-logo2,.ifw,.menu1,.view-btn,.history-section{
+    display: flex;
+    justify-content: center;
+}
+
+
+.hero-section3{
+    background-image: url('../images/5936\ 1.png');
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+    width: 967px;
+    height: 930px;
+    top: 1617px;    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto ; /* Three rows of auto height */
+    grid-template-columns: auto auto auto; /* Two columns of auto width */
+    gap: 90px; /* Gap between grid items */
+    margin-top: 160px;
+  }
+  
+  .grid-item div { /* Background color for grid items (you can adjust as needed) */
+    padding: 145px 169px 140px 168px; /* Padding for grid items (you can adjust as needed) */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column
+  }
+
+  .grid-item p{
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    color: #333333;
+  }
+
+
+  /* Hide the scrollbar */
+    ::-webkit-scrollbar {
+        width: 0;  /* For Safari and Chrome */
+        display: none; /* Hide scrollbar for Firefox */
+    }
+
+    /* Optional: you can style the scrollbar track and thumb if needed */
+    ::-webkit-scrollbar-track {
+        background: transparent; /* Change to desired color or set to 'none' */
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: transparent; /* Change to desired color or set to 'none' */
+    }
+
+    .hero-section4 button{
+        background: #FFC35B;
+        height: 70px;
+        border-radius: 54px;
+        width: 230px;
+        font-family: Jost;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 46px;
+        letter-spacing: 0em;
+        color: white;
+        border: none;
+        margin-bottom:20px;
+    }
+      .hero-section4 {
+        background-color: #EFECCA;
+    }
+
+    .Discovery{
+        background-image: url('../images/Rectangle\ 121.png');
+        height: 856px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .Discovery img{
+            
+        Width : 350px;
+        Height: 280px;
+        border-radius: 28px;
+    }
+
+    .images1{
+        Width : 350px;
+        Height: 280px;
+    }
+
+    .Discovery h1{
+        color: white;
+        font-family: Jost;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+
+    }
+
+    .Discovery p{
+        font-family: Jost;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 46px;
+        letter-spacing: 0em;
+        color: white;
+
+    }
+
+
+    .discovery1{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        padding-top: 80px;
+    }
+
+    .discovery2{
+        width: 802px;
+    }
+
+    .radhe{
+        background-image: url('../images/Rectangle\ 138.png');
+        height: 558px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .radhe p{
+        color: white;
+        font-weight: 700;
+        font-size: 35px;
+    }
+
+    .radhe-1{
+        width: 717px;
+        padding: 160px 0px 0px 90px;
+        font-style: italic;
+    }
+
+    
